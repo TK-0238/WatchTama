@@ -1,10 +1,97 @@
 {
   "images": [
     {
-      "size": "1024x1024",
+      "filename": "icon-48.png",
+      "idiom": "watch",
+      "role": "notificationCenter",
+      "scale": "2x",
+      "size": "24x24",
+      "subtype": "38mm"
+    },
+    {
+      "filename": "icon-55.png",
+      "idiom": "watch",
+      "role": "notificationCenter",
+      "scale": "2x",
+      "size": "27.5x27.5",
+      "subtype": "42mm"
+    },
+    {
+      "filename": "icon-66.png",
+      "idiom": "watch",
+      "role": "notificationCenter",
+      "scale": "2x",
+      "size": "33x33",
+      "subtype": "45mm"
+    },
+    {
+      "filename": "icon-80.png",
+      "idiom": "watch",
+      "role": "companionSettings",
+      "scale": "2x",
+      "size": "40x40"
+    },
+    {
+      "filename": "icon-102.png",
+      "idiom": "watch",
+      "role": "appLauncher",
+      "scale": "3x",
+      "size": "33x33",
+      "subtype": "45mm"
+    },
+    {
+      "filename": "icon-108.png",
+      "idiom": "watch",
+      "role": "appLauncher",
+      "scale": "2x",
+      "size": "36x36",
+      "subtype": "44mm"
+    },
+    {
+      "filename": "icon-120.png",
+      "idiom": "watch",
+      "role": "quickLook",
+      "scale": "2x",
+      "size": "60x60",
+      "subtype": "44mm"
+    },
+    {
+      "filename": "icon-129.png",
+      "idiom": "watch",
+      "role": "quickLook",
+      "scale": "3x",
+      "size": "43x43",
+      "subtype": "41mm"
+    },
+    {
+      "filename": "icon-172.png",
+      "idiom": "watch",
+      "role": "quickLook",
+      "scale": "2x",
+      "size": "86x86",
+      "subtype": "45mm"
+    },
+    {
+      "filename": "icon-196.png",
+      "idiom": "watch",
+      "role": "quickLook",
+      "scale": "2x",
+      "size": "98x98",
+      "subtype": "49mm"
+    },
+    {
+      "filename": "icon-216.png",
+      "idiom": "watch",
+      "role": "appLauncher",
+      "scale": "2x",
+      "size": "108x108",
+      "subtype": "49mm"
+    },
+    {
+      "filename": "icon-1024.png",
       "idiom": "watch-marketing",
-      "filename": "AppIcon.png",
-      "scale": "1x"
+      "scale": "1x",
+      "size": "1024x1024"
     }
   ],
   "info": {
