@@ -1,0 +1,63 @@
+name: WatchTama
+options:
+  bundleIdPrefix: com.watchtama
+  createIntermediateGroups: true
+  deploymentTarget:
+    watchOS: "10.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    WATCHOS_DEPLOYMENT_TARGET: "10.0"
+    TARGETED_DEVICE_FAMILY: 4
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    CODE_SIGN_STYLE: Automatic
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 1.0
+
+schemes:
+  WatchTama:
+    build:
+      targets:
+        WatchTama: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    archive:
+      config: Release
+
+targets:
+  WatchTama:
+    type: application
+    platform: watchOS
+    sources:
+      - path: WatchTama
+      - path: Shared
+    resources:
+      - path: WatchTama/Assets.xcassets
+    settings:
+      base:
+        INFOPLIST_FILE: WatchTama/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.watchtama.watchtama
+        ENABLE_PREVIEWS: YES
+        APPLICATION_EXTENSION_API_ONLY: NO
+    entitlements:
+      path: WatchTama/WatchTama.entitlements
+    dependencies:
+      - target: WatchTamaWidget
+
+  WatchTamaWidget:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: WatchTamaWidget
+      - path: Shared
+    settings:
+      base:
+        INFOPLIST_FILE: WatchTamaWidget/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.watchtama.watchtama.widget
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+    entitlements:
+      path: WatchTamaWidget/WatchTamaWidget.entitlements

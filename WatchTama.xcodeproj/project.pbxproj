@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B387AAAC9E6A4CA021D6673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A24EB393958F2C728E330E3 /* Assets.xcassets */; };
+		108BC77B00331B064F6DC851 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD46A059F743E1F4C4180E /* GameModels.swift */; };
+		128E99B496E398AA671A3926 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD46A059F743E1F4C4180E /* GameModels.swift */; };
+		14E803B8391B837C2D064498 /* WatchTamaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D8B225D059AAEFB9B2FDC3C /* WatchTamaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18EAD9485EE93455B765187D /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF00AB0FD24CD1FE218A057 /* AppGroup.swift */; };
+		1E45100599B7D076A2CEEE2E /* WatchTamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C668740DAD465A5DC987E /* WatchTamaApp.swift */; };
+		2A6F336E6BD250BAA6750DCD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EBB18A75FEE18D198191 /* OnboardingView.swift */; };
+		390AB647EBFD44D380FF2601 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF41D03E69E0E8B22C8605E1 /* GameOverView.swift */; };
+		3F52F0E714C44C87ACD115FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB06955802FD2CA0E23872B /* ContentView.swift */; };
+		3FD2C11B154463F5A9A647DB /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA731D35CCD2C1741298D0 /* GameEngine.swift */; };
+		5545959300A0FDF7227D578B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3157488500C0D27A62112DD4 /* SettingsView.swift */; };
+		5599E41C5F2BA015E6A7493C /* WatchTamaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA900DCC42F7B3346511BD5 /* WatchTamaWidget.swift */; };
+		5CC1ABA2CA9F0C06F1328EE9 /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6C4162F7821B4B0E92DE4 /* CareAction.swift */; };
+		761A9196263EE8BEF139B8B9 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDCD26B71C2BAC25EAD53 /* GameStore.swift */; };
+		76FB71F18D546E11A82314E5 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDCD26B71C2BAC25EAD53 /* GameStore.swift */; };
+		886768F8D0B931BE8BD3BFCF /* WidgetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05AC621274C109CF46B75E /* WidgetDataSource.swift */; };
+		99BC5DC6AA301B4C4C983AB5 /* WidgetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05AC621274C109CF46B75E /* WidgetDataSource.swift */; };
+		DA55029E52E98144D1333547 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6D73033BBE35D74D8CFE4 /* HistoryView.swift */; };
+		E831236424873BE9973459B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE7374FB40EC821D4664FC /* HomeView.swift */; };
+		ED9911B88FEAA73F23F0ABC2 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF00AB0FD24CD1FE218A057 /* AppGroup.swift */; };
+		F4BAD444AD4320C50974BF62 /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6C4162F7821B4B0E92DE4 /* CareAction.swift */; };
+		F6AD2D5D5BA504CDC43B6A69 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA731D35CCD2C1741298D0 /* GameEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24A6B1790FC399A717C4B370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340EFB37CD01BC1E00D00296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8A4465CF284744206894185;
+			remoteInfo = WatchTamaWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2C7FFFA751B7B76E9A5B128 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				14E803B8391B837C2D064498 /* WatchTamaWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AA900DCC42F7B3346511BD5 /* WatchTamaWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTamaWidget.swift; sourceTree = "<group>"; };
+		0B33D9BD4FF7A7F51CFD9300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13F2EBB18A75FEE18D198191 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1BEA731D35CCD2C1741298D0 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		1EF00AB0FD24CD1FE218A057 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		1FB06955802FD2CA0E23872B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2923CF5ABF8DF9CB4382870F /* WatchTama.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchTama.entitlements; sourceTree = "<group>"; };
+		3157488500C0D27A62112DD4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		32F70FF06EDAFEFA5702CC31 /* WatchTama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F6C4162F7821B4B0E92DE4 /* CareAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareAction.swift; sourceTree = "<group>"; };
+		3D8B225D059AAEFB9B2FDC3C /* WatchTamaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchTamaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD6D73033BBE35D74D8CFE4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7D27A1C6A581C0476646055D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8A24EB393958F2C728E330E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D5C668740DAD465A5DC987E /* WatchTamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTamaApp.swift; sourceTree = "<group>"; };
+		B0DE7374FB40EC821D4664FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CB05AC621274C109CF46B75E /* WidgetDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataSource.swift; sourceTree = "<group>"; };
+		CF41D03E69E0E8B22C8605E1 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		DDBD46A059F743E1F4C4180E /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		E05EDCD26B71C2BAC25EAD53 /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		FF3E99141DFE6B5BC1D52212 /* WatchTamaWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchTamaWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06163AD6BACC0F06E26A5AC1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1EF00AB0FD24CD1FE218A057 /* AppGroup.swift */,
+				39F6C4162F7821B4B0E92DE4 /* CareAction.swift */,
+				1BEA731D35CCD2C1741298D0 /* GameEngine.swift */,
+				DDBD46A059F743E1F4C4180E /* GameModels.swift */,
+				E05EDCD26B71C2BAC25EAD53 /* GameStore.swift */,
+				CB05AC621274C109CF46B75E /* WidgetDataSource.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7AE0573066A57A8C49726B85 = {
+			isa = PBXGroup;
+			children = (
+				06163AD6BACC0F06E26A5AC1 /* Shared */,
+				C1FA9659BFC065A6203E96BA /* WatchTama */,
+				C01CF9917F05D22F49C67E20 /* WatchTamaWidget */,
+				CA6C5122A0F622B67F118EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01CF9917F05D22F49C67E20 /* WatchTamaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7D27A1C6A581C0476646055D /* Info.plist */,
+				FF3E99141DFE6B5BC1D52212 /* WatchTamaWidget.entitlements */,
+				0AA900DCC42F7B3346511BD5 /* WatchTamaWidget.swift */,
+			);
+			path = WatchTamaWidget;
+			sourceTree = "<group>";
+		};
+		C1FA9659BFC065A6203E96BA /* WatchTama */ = {
+			isa = PBXGroup;
+			children = (
+				8A24EB393958F2C728E330E3 /* Assets.xcassets */,
+				1FB06955802FD2CA0E23872B /* ContentView.swift */,
+				CF41D03E69E0E8B22C8605E1 /* GameOverView.swift */,
+				5DD6D73033BBE35D74D8CFE4 /* HistoryView.swift */,
+				B0DE7374FB40EC821D4664FC /* HomeView.swift */,
+				0B33D9BD4FF7A7F51CFD9300 /* Info.plist */,
+				13F2EBB18A75FEE18D198191 /* OnboardingView.swift */,
+				3157488500C0D27A62112DD4 /* SettingsView.swift */,
+				2923CF5ABF8DF9CB4382870F /* WatchTama.entitlements */,
+				9D5C668740DAD465A5DC987E /* WatchTamaApp.swift */,
+			);
+			path = WatchTama;
+			sourceTree = "<group>";
+		};
+		CA6C5122A0F622B67F118EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F70FF06EDAFEFA5702CC31 /* WatchTama.app */,
+				3D8B225D059AAEFB9B2FDC3C /* WatchTamaWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE0D62F6882A0FDBADFEA81 /* WatchTama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4843EA91820EC9D9CBB363 /* Build configuration list for PBXNativeTarget "WatchTama" */;
+			buildPhases = (
+				24366900407CBFCD92423327 /* Sources */,
+				46BDDFDAA248DD23218A7BCA /* Resources */,
+				F2C7FFFA751B7B76E9A5B128 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469970012E84B7EBBB4C0A60 /* PBXTargetDependency */,
+			);
+			name = WatchTama;
+			packageProductDependencies = (
+			);
+			productName = WatchTama;
+			productReference = 32F70FF06EDAFEFA5702CC31 /* WatchTama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8A4465CF284744206894185 /* WatchTamaWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E80E0C4AE51810D523F22D /* Build configuration list for PBXNativeTarget "WatchTamaWidget" */;
+			buildPhases = (
+				351B9CD4FA746C0B2C168E7E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchTamaWidget;
+			packageProductDependencies = (
+			);
+			productName = WatchTamaWidget;
+			productReference = 3D8B225D059AAEFB9B2FDC3C /* WatchTamaWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340EFB37CD01BC1E00D00296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5AE0D62F6882A0FDBADFEA81 = {
+						ProvisioningStyle = Automatic;
+					};
+					A8A4465CF284744206894185 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E560EA32F95E9AD5F8615B40 /* Build configuration list for PBXProject "WatchTama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7AE0573066A57A8C49726B85;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE0D62F6882A0FDBADFEA81 /* WatchTama */,
+				A8A4465CF284744206894185 /* WatchTamaWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BDDFDAA248DD23218A7BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B387AAAC9E6A4CA021D6673 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24366900407CBFCD92423327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9911B88FEAA73F23F0ABC2 /* AppGroup.swift in Sources */,
+				5CC1ABA2CA9F0C06F1328EE9 /* CareAction.swift in Sources */,
+				3F52F0E714C44C87ACD115FD /* ContentView.swift in Sources */,
+				3FD2C11B154463F5A9A647DB /* GameEngine.swift in Sources */,
+				108BC77B00331B064F6DC851 /* GameModels.swift in Sources */,
+				390AB647EBFD44D380FF2601 /* GameOverView.swift in Sources */,
+				76FB71F18D546E11A82314E5 /* GameStore.swift in Sources */,
+				DA55029E52E98144D1333547 /* HistoryView.swift in Sources */,
+				E831236424873BE9973459B8 /* HomeView.swift in Sources */,
+				2A6F336E6BD250BAA6750DCD /* OnboardingView.swift in Sources */,
+				5545959300A0FDF7227D578B /* SettingsView.swift in Sources */,
+				1E45100599B7D076A2CEEE2E /* WatchTamaApp.swift in Sources */,
+				886768F8D0B931BE8BD3BFCF /* WidgetDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B9CD4FA746C0B2C168E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EAD9485EE93455B765187D /* AppGroup.swift in Sources */,
+				F4BAD444AD4320C50974BF62 /* CareAction.swift in Sources */,
+				F6AD2D5D5BA504CDC43B6A69 /* GameEngine.swift in Sources */,
+				128E99B496E398AA671A3926 /* GameModels.swift in Sources */,
+				761A9196263EE8BEF139B8B9 /* GameStore.swift in Sources */,
+				5599E41C5F2BA015E6A7493C /* WatchTamaWidget.swift in Sources */,
+				99BC5DC6AA301B4C4C983AB5 /* WidgetDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469970012E84B7EBBB4C0A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8A4465CF284744206894185 /* WatchTamaWidget */;
+			targetProxy = 24A6B1790FC399A717C4B370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		457D8DB2C76A34EF08B10B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchTama/WatchTama.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WatchTama/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchtama.watchtama;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		9331C8A3ECAA8367CB111221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A60B13AE2811A3E75ADAAA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchTama/WatchTama.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WatchTama/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchtama.watchtama;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		C88F74E3A5A76B80FA88F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E2AB6375E8C1A1A68270FB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WatchTamaWidget/WatchTamaWidget.entitlements;
+				INFOPLIST_FILE = WatchTamaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchtama.watchtama.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		E8E9D68875AE71B6AE0755FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WatchTamaWidget/WatchTamaWidget.entitlements;
+				INFOPLIST_FILE = WatchTamaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchtama.watchtama.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E80E0C4AE51810D523F22D /* Build configuration list for PBXNativeTarget "WatchTamaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AB6375E8C1A1A68270FB1C /* Debug */,
+				E8E9D68875AE71B6AE0755FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C4843EA91820EC9D9CBB363 /* Build configuration list for PBXNativeTarget "WatchTama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60B13AE2811A3E75ADAAA5F /* Debug */,
+				457D8DB2C76A34EF08B10B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E560EA32F95E9AD5F8615B40 /* Build configuration list for PBXProject "WatchTama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88F74E3A5A76B80FA88F11F /* Debug */,
+				9331C8A3ECAA8367CB111221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340EFB37CD01BC1E00D00296 /* Project object */;
+}
