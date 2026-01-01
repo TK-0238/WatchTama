@@ -24,6 +24,7 @@
 		76FB71F18D546E11A82314E5 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDCD26B71C2BAC25EAD53 /* GameStore.swift */; };
 		886768F8D0B931BE8BD3BFCF /* WidgetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05AC621274C109CF46B75E /* WidgetDataSource.swift */; };
 		99BC5DC6AA301B4C4C983AB5 /* WidgetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05AC621274C109CF46B75E /* WidgetDataSource.swift */; };
+		C9D896192F060938001FEFDA /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = C9D896182F060938001FEFDA /* AppIcon.icon */; };
 		DA55029E52E98144D1333547 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6D73033BBE35D74D8CFE4 /* HistoryView.swift */; };
 		E831236424873BE9973459B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE7374FB40EC821D4664FC /* HomeView.swift */; };
 		ED9911B88FEAA73F23F0ABC2 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF00AB0FD24CD1FE218A057 /* AppGroup.swift */; };
@@ -72,6 +73,7 @@
 		8A24EB393958F2C728E330E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5C668740DAD465A5DC987E /* WatchTamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTamaApp.swift; sourceTree = "<group>"; };
 		B0DE7374FB40EC821D4664FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C9D896182F060938001FEFDA /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		CB05AC621274C109CF46B75E /* WidgetDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataSource.swift; sourceTree = "<group>"; };
 		CF41D03E69E0E8B22C8605E1 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		DDBD46A059F743E1F4C4180E /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		7AE0573066A57A8C49726B85 = {
 			isa = PBXGroup;
 			children = (
+				C9D896182F060938001FEFDA /* AppIcon.icon */,
 				06163AD6BACC0F06E26A5AC1 /* Shared */,
 				C1FA9659BFC065A6203E96BA /* WatchTama */,
 				C01CF9917F05D22F49C67E20 /* WatchTamaWidget */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B387AAAC9E6A4CA021D6673 /* Assets.xcassets in Resources */,
+				C9D896192F060938001FEFDA /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

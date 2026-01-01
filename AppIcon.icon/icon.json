@@ -1,0 +1,41 @@
+{
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "frame" : {
+            "height" : 512,
+            "width" : 512,
+            "x" : 0,
+            "y" : 0
+          },
+          "glass" : true,
+          "image-name" : "light.png",
+          "image-name-specializations" : {
+            "dark" : "dark.png",
+            "tinted" : "light.png"
+          },
+          "name" : "Base",
+          "type" : "image"
+        }
+      ],
+      "mask" : {
+        "corner-radius" : 0,
+        "type" : "none"
+      },
+      "name" : "Primary"
+    }
+  ],
+  "name" : "WatchTama",
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  },
+  "version" : 1
+}
